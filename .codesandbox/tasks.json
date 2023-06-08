@@ -19,11 +19,11 @@
         "build": {
             "name": "build",
             "command": "pnpm run build",
-            "runAtStart": true
+            "runAtStart": false
         },
         "start": {
             "name": "start",
-            "command": "pnpm run start",
+            "command": "pnpm run build && pnpm run start",
             "runAtStart": true,
             "preview": {
                 "port": 8089
